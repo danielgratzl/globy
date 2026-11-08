@@ -1,0 +1,10 @@
+{
+  "name": "Globy",
+  "short_name": "Globy",
+  "description": "Your travels on a map.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2a78d6",
+  "icons": [{ "src": "/globy-logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

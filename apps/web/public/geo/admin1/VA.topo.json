@@ -1,0 +1,1 @@
+{"type":"Topology","arcs":[[[4800,19999],[14399,-909],[800,-19090],[-19999,4545],[4800,15454]]],"transform":{"scale":[6.607130356475326e-8,5.814275713959414e-8],"translate":[12.452714082000087,41.90275194100009]},"objects":{"regions":{"type":"GeometryCollection","geometries":[{"arcs":[[0]],"type":"Polygon","properties":{"country":"VA","name":"Vatican","code":"VA~VAT+00?"}}]}}}

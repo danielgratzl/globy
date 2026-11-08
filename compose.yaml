@@ -1,0 +1,22 @@
+name: globy
+
+services:
+  globy:
+    build: .
+    image: globy:latest
+    restart: unless-stopped
+    ports:
+      - '${GLOBY_PORT:-8081}:3000'
+    environment:
+      TZ: ${TZ:-UTC}
+    volumes:
+      - globy-data:/data
+    stop_grace_period: 15s
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+
+volumes:
+  globy-data:

@@ -16,6 +16,6 @@
   "devDependencies": {
     "@types/node": "^22.18.0",
     "@types/topojson-specification": "^1.0.5",
-    "vitest": "^3.2.4"
+    "vitest": "^5.1.0"
   }
 }
